@@ -1,11 +1,7 @@
-try:
-    import requests, telebot, time
-except ImportError:
-    import os
-    os.system('pip install requests')
-    os.system('pip install telebot')
+import requests, telebot, time
 
-token = input('Enter bot token: ')
+# Bot Token
+token = "7768940127:AAGx69BeXWrp3eAUvnHYAAJg1-zN5s1NNYM"  # Replace with your bot token
 bot = telebot.TeleBot(token)
 
 loading_frames = [
